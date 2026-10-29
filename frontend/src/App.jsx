@@ -22,7 +22,7 @@ setError("");
 
 try {
   const response = await fetch(
-    "http://127.0.0.1:8002/api/itinerary",
+    "https://travelmate-ai-backend-sidd047.onrender.com/api/itinerary", 
     {
       method: "POST",
       headers: {
